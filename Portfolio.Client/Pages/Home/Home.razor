@@ -1,0 +1,95 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<!--TODO: Might not need AlignItems here-->
+<br/><br/>
+<MudGrid Justify="Justify.Center" AlignItems="AlignItems.Center" Style="text-align:center;">
+    <MudItem xs="12">
+        <MudText Typo="Typo.h2" GutterBottom="true">Hi, I am 
+            <MudText Typo="Typo.h2" Color="Color.Primary" Inline="true">Jack Quentin Forde.</MudText>
+        </MudText>
+
+        <MudText Typo="Typo.h5">
+            Game Developer <span style="font-size:22pt;">|</span>
+            <span style="display:inline-block; width: 180px; text-align: left; white-space: nowrap;">
+                <MudText Typo="Typo.h5" Inline="true" Color="Color.Secondary">@roleText</MudText><span style="font-size:20pt;">@cursor</span>
+            </span>
+        </MudText>
+        <br/><br/>
+    </MudItem>
+
+    <MudItem xs="8">
+        <MudText Typo="Typo.h4" cOLO GutterBottom="true">About me</MudText>
+        <br/>
+        <MudText Typo="Typo.body2">
+            I am a Software Engineer with more than 7 years of experience working in the Tech Industry.<br/>
+            I am passionate about technology and I enjoy the process of solving complex problems and coming up with new and creative solutions.<br/>
+            I am highly motivated when working with others who share my enthusiasm for technology
+        </MudText>
+    </MudItem>
+</MudGrid>
+
+@code {
+    private string[] roles = new[] { "Programmer", "Game Designer", "3D Artist",  "Sound Designer"};
+    private string roleText = "";
+    private string cursor = "|";
+    private int roleIndex = 0;
+    private int charIndex = 0;
+    private bool isDeleting = false;
+    private System.Timers.Timer? timer;
+
+    protected override void OnInitialized()
+    {
+        roleText = "";
+        TypeOutRoles();
+    }
+
+    private void TypeOutRoles()
+    {
+        timer = new System.Timers.Timer(100);
+        timer.Elapsed += (s, e) =>
+        {
+            cursor = "|";
+
+            if (!isDeleting)
+            {
+                if (charIndex < roles[roleIndex].Length)
+                {
+                    charIndex++;
+                    roleText = roles[roleIndex].Substring(0, charIndex);
+                }
+                else
+                {
+                    isDeleting = true;
+                    timer?.Stop();
+                    cursor = " ";
+                    Task.Delay(1000).ContinueWith(_ => timer?.Start());
+                }
+            }
+            else
+            {
+                if (charIndex > 0)
+                {
+                    charIndex--;
+                    roleText = roles[roleIndex].Substring(0, charIndex);
+                }
+                else
+                {
+                    cursor = " ";
+                    isDeleting = false;
+                    roleIndex = (roleIndex + 1) % roles.Length;
+                }
+            }
+
+            InvokeAsync(StateHasChanged);
+        };
+        timer.Start();
+    }
+
+    public void Dispose()
+    {
+        timer?.Stop();
+        timer?.Dispose();
+    }
+}

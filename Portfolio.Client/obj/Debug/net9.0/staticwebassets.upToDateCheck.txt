@@ -1,0 +1,4 @@
+wwwroot\appsettings.Development.json
+wwwroot\appsettings.json
+C:\git\Portfolio\Portfolio.Client\wwwroot\appsettings.Development.json
+C:\git\Portfolio\Portfolio.Client\wwwroot\appsettings.json
