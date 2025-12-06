@@ -1,35 +1,4 @@
 /* /Pages/Home/Home.razor.rz.scp.css */
-/* animated gradient text (works in Chrome/Edge/Safari and Firefox) */
-.neon-gradient[b-i5t7lcm95z] {
-    /* gradient and motion */
-    background: linear-gradient(90deg, #ff185d 0%, #ff7e00 20%, #ffd000 40%, #28b67d 60%, #4a86ff 80%, #b400ff 100% );
-    background-size: 400% 400%;
-    animation: neonCycle-b-i5t7lcm95z 8s linear infinite;
-    /* make gradient show through the text */
-    color: transparent !important; /* fallback & Firefox */
-    -webkit-background-clip: text; /* Chrome/Safari/Edge */
-    background-clip: text; /* Firefox (modern) */
-    -webkit-text-fill-color: transparent !important; /* Chrome/Safari/Edge */
-    /* keep it inline and non-wrapping if you want single-line look */
-    display: inline-block;
-    white-space: nowrap;
-}
-
-/* optional neon glow */
-.neon-glow[b-i5t7lcm95z] {
-    text-shadow: 0 0 6px rgba(255,24,93,0.9), 0 0 14px rgba(255,24,93,0.6), 0 0 28px rgba(255,24,93,0.4);
-}
-
-@keyframes neonCycle-b-i5t7lcm95z {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+html[b-i5t7lcm95z] {
+    scroll-behavior: smooth;
 }

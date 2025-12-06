@@ -1,32 +1,308 @@
-﻿@page "/"
+﻿@inject IJSRuntime JS
+
+@page "/"
 
 <PageTitle>Home</PageTitle>
 
-<!--TODO: Might not need AlignItems here-->
-<br/><br/>
+<br /><br />
 <MudGrid Justify="Justify.Center" AlignItems="AlignItems.Center" Style="text-align:center;">
     <MudItem xs="12">
         <MudText Typo="Typo.h2" GutterBottom="true">Hi, I am 
             <MudText Typo="Typo.h2" Color="Color.Primary" Inline="true">Jack Quentin Forde.</MudText>
         </MudText>
 
-        <MudText Typo="Typo.h5">
-            Game Developer <span style="font-size:22pt;">|</span>
-            <span style="display:inline-block; width: 180px; text-align: left; white-space: nowrap;">
-                <MudText Typo="Typo.h5" Inline="true" Color="Color.Secondary">@roleText</MudText><span style="font-size:20pt;">@cursor</span>
+        <MudText Typo="Typo.h4">
+            Game Developer <span style="font-size:28pt;">|</span>
+            <span style="display:inline-block; width: 200px; text-align: left; white-space: nowrap;">
+                <MudText Typo="Typo.h4" Inline="true" Color="Color.Secondary">@roleText</MudText><span style="font-size:24pt;">@cursor</span>
             </span>
         </MudText>
-        <br/><br/>
+        <br /><br />
+
+        <MudGrid Justify="Justify.Center" Class="mb-4">
+            <MudItem>
+                <MudButton Variant="Variant.Outlined" Color="Color.Primary" Href="#projects">Projects</MudButton>
+            </MudItem>
+            <MudItem>
+                <MudButton Variant="Variant.Outlined" Color="Color.Primary" Href="#models">3D Models</MudButton>
+            </MudItem>
+            <MudItem>
+                <MudButton Variant="Variant.Outlined" Color="Color.Primary" Href="#skills">Skills</MudButton>
+            </MudItem>
+            <MudItem>
+                <MudButton Variant="Variant.Outlined" Color="Color.Primary" Href="#contact">Contact</MudButton>
+            </MudItem>
+        </MudGrid>
+        <br />
     </MudItem>
 
     <MudItem xs="8">
-        <MudText Typo="Typo.h4" cOLO GutterBottom="true">About me</MudText>
-        <br/>
-        <MudText Typo="Typo.body2">
-            I am a Software Engineer with more than 7 years of experience working in the Tech Industry.<br/>
-            I am passionate about technology and I enjoy the process of solving complex problems and coming up with new and creative solutions.<br/>
-            I am highly motivated when working with others who share my enthusiasm for technology
+        <MudText Typo="Typo.body1" Style="text-align:left;">
+            As a Software Engineer and self-taught Game Developer, I am fascinated by all aspects of Game Development.
+            In the pursuit of a career in Game Development, I have taught myself how to program games, design 3D Models, and compose sound and music.
+            I have worked as a freelancer on indie game projects, as well as solo on my own personal projects.
+            While I consider programming to be my primary strength, I have worked as a 3D artist before, and I am more than willing to contribute in any way I can.
         </MudText>
+        <br /><br />
+        <MudDivider></MudDivider>
+    </MudItem>
+
+    <MudItem xs="6">
+        <MudText Typo="Typo.h4" GutterBottom="true" Id="projects">Projects</MudText>
+        <br />
+
+        <MudCard Style="padding:15px;">
+            <MudText Typo="Typo.h5" Style="text-align:left;" GutterBottom="true">Hollow Heart</MudText>
+            <MudText Typo="Typo.body2" Style="text-align:left;">
+                A current work in progress, Hollow Heart is a 2.5D Survival Horror game set in a haunted Japanese high school.
+                The game features exploration, puzzle-solving, and stealth mechanics as the player navigates through the eerie haunted school hallways.
+                I have put a lot of effort into the visual presentation, aiming to create a truly unique art style that blends low-poly 3D models with pixel-art textures.
+            </MudText>
+            <MudCardContent>
+                <div style="display:flex; justify-content:center;">
+                    <blockquote class="twitter-tweet" data-media-max-width="800"><p lang="en" dir="ltr">Some new things to show! I&#39;ve redesigned the classrooms to be a lot larger, I&#39;ve added interactions to certain objects, and I&#39;ve got a basic dialogue system working with vocal sounds. <a href="https://twitter.com/hashtag/indiegame?src=hash&amp;ref_src=twsrc%5Etfw">#indiegame</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://t.co/8XazMeH01z">pic.twitter.com/8XazMeH01z</a></p>&mdash; Hollow Heart (LowPolyJackDev) <a href="https://twitter.com/LowPolyJackDev/status/1994518453936689508?ref_src=twsrc%5Etfw">November 28, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </MudCardContent>
+        </MudCard>
+        <br />
+
+        <MudCard Style="padding:15px;">
+            <MudText Typo="Typo.h5" Style="text-align:left;" GutterBottom="true">Super Mario World 3D Remake</MudText>
+            <MudText Typo="Typo.body2" Style="text-align:left;">
+                A 3D Reimagining of the the first level of the SNES classic Super Mario World. This project was created as a learning exercise to
+                improve my skills in 3D Modelling, Level Design, and designing Enemy AI. It was an interesting challenge to translate a 2D game into 3D,
+                I put a lot of effort into preserving the look and feel of the original game while adapting it to a 3D environment.
+            </MudText>
+            <MudCardContent>
+                <iframe frameborder="0" src="https://itch.io/embed/2427351?linkback=true&amp;bg_color=151521&amp;fg_color=b2b0bf&amp;link_color=ff185d&amp;border_color=33323e"><a href="https://lowpolyjack.itch.io/super-mario-world-3d-remake">Super Mario World 3D Remake (Demo Project) by LowPolyJack</a></iframe>
+            </MudCardContent>
+        </MudCard>
+        <br />
+
+        <MudCard Style="padding:15px;">
+            <MudText Typo="Typo.h5" Style="text-align:left;" GutterBottom="true">Cybermancer X</MudText>
+            <MudText Typo="Typo.body2" Style="text-align:left;">
+                A short yet punishingly difficult platform shooter I developed for a game jam. The game features fast-paced gameplay, tight controls, and a retro-inspired aesthetic.
+                As it is extremely easy to die in this game, I made sure to implement instant respawns to keep the gameplay flowing smoothly and minimise player frustration.
+            </MudText>
+            <MudCardContent>
+                <iframe frameborder="0" src="https://itch.io/embed/293250?linkback=true&amp;bg_color=151521&amp;fg_color=b2b0bf&amp;link_color=ff185d&amp;border_color=33323e"><a href="https://lowpolyjack.itch.io/cybermancer-x">Cybermancer X by LowPolyJack</a></iframe>
+            </MudCardContent>
+        </MudCard>
+        <br />
+
+        <MudCard Style="padding:15px;">
+            <MudText Typo="Typo.h5" Style="text-align:left;" GutterBottom="true">Jumpycat</MudText>
+            <MudText Typo="Typo.body2" Style="text-align:left;">
+                An endless platform jumping game and high score chaser for Android devices where the player controls the titular Jumpycat by simply rotating their phone in their hand. 
+                I particularly enjoyed implementing the accelreometer based controls for this game, it turned out to be quite an intuitive and engaging way to play.
+            </MudText>
+            <MudCardContent>
+                <iframe frameborder="0" src="https://itch.io/embed/1921601?linkback=true&amp;bg_color=151521&amp;fg_color=b2b0bf&amp;link_color=ff185d&amp;border_color=33323e" width="552" height="167"><a href="https://lowpolyjack.itch.io/jumpycat">Jumpycat by LowPolyJack</a></iframe>
+            </MudCardContent>
+        </MudCard>
+        <br /><br />
+    </MudItem>
+
+    <MudItem xs="8">
+    </MudItem>
+
+    <MudItem xs="8">
+        <MudDivider></MudDivider>
+        <br />
+        <MudText Typo="Typo.h4" GutterBottom="true" Id="models">3D Models</MudText>
+        <br />
+
+        <MudCard Style="padding:15px;">
+            <MudCardContent>
+                <div class="sketchfab-embed-wrapper" style="height:568px"> <iframe title="3D Pixel Art Town Scene" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/3b27766f798245f280597852607080a2/embed?ui_theme=dark"> </iframe> </div>
+            </MudCardContent>
+        </MudCard>
+        <br />
+
+        <MudCard Style="padding:15px;">
+            <MudCardContent>
+                <div class="sketchfab-embed-wrapper" style="height:568px"> <iframe title="Classroom" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/d74b082a345b4c7998fe74a732968939/embed?ui_theme=dark"> </iframe> </div>
+            </MudCardContent>
+        </MudCard>
+        <br />
+
+        <MudCard Style="padding:15px;">
+            <MudCardContent>
+                <div class="sketchfab-embed-wrapper" style="height:568px"> <iframe title="Pallet Town - Pokemon Fire Red" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/f0e0bd13f45947dda5237b9b79b3250d/embed?ui_theme=dark"> </iframe> </div>
+            </MudCardContent>
+        </MudCard>
+        <br />
+
+        <MudCard Style="padding:15px;">
+            <MudCardContent>
+                <div class="sketchfab-embed-wrapper" style="height:568px"> <iframe title="Ness's House (Earthbound)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/1106850cf1054fd2b717eb1cc1cc3bcf/embed?ui_theme=dark"> </iframe> </div>
+            </MudCardContent>
+        </MudCard>
+        <br />
+
+        <MudCard Style="padding:15px;">
+            <MudCardContent>
+                <div class="sketchfab-embed-wrapper" style="height:568px"> <iframe title="Louise's Bedroom - Dreamed Away" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/02f2648b8c6e457bb78f9424669df162/embed?ui_theme=dark"> </iframe> </div>
+            </MudCardContent>
+        </MudCard>
+        <br />
+
+        <MudCard Style="padding:15px;">
+            <MudCardContent>
+                <div class="sketchfab-embed-wrapper" style="height:568px"> <iframe title="Mario (Super Mario World)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/e045628b37984a469a81426c7336d36a/embed?ui_theme=dark"> </iframe> </div>
+            </MudCardContent>
+        </MudCard>
+        <br />
+
+        <MudCard Style="padding:15px;">
+            <MudCardContent>
+                <div class="sketchfab-embed-wrapper" style="height:568px"> <iframe title="Piranha Plant" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/d491a29c5f944f0dba141e4bc9584941/embed?ui_theme=dark"> </iframe> </div>
+            </MudCardContent>
+        </MudCard>
+        <br /><br />
+        <MudDivider></MudDivider>
+    </MudItem>
+
+    <MudItem xs="8">
+        <MudText Typo="Typo.h4" GutterBottom="true" Id="skills">Skills</MudText>
+        <br />
+
+        <MudGrid Spacing="3" Justify="Justify.Center" AlignItems="AlignItems.Center" Style="text-align:center;">
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Code" class="mr-2" />
+                        <MudText>C#</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Code" class="mr-2" />
+                        <MudText>Java</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Code" class="mr-2" />
+                        <MudText>C++</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Code" class="mr-2" />
+                        <MudText>Python</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Code" class="mr-2" />
+                        <MudText>Lua</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Code" class="mr-2" />
+                        <MudText>GLSL</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Computer" class="mr-2" />
+                        <MudText>Unreal Engine</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Computer" class="mr-2" />
+                        <MudText>Unity</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Computer" class="mr-2" />
+                        <MudText>Godot Engine</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Brush" class="mr-2" />
+                        <MudText>Blender</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Brush" class="mr-2" />
+                        <MudText>Substance Painter</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Brush" class="mr-2" />
+                        <MudText>Blockbench</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+
+            <MudItem>
+                <MudCard Class="pa-2" Style="max-width:200px; margin:auto;">
+                    <div style="display:flex; align-items:center;">
+                        <MudIcon Icon="@Icons.Material.Filled.Brush" class="mr-2" />
+                        <MudText>Aseprite</MudText>
+                    </div>
+                </MudCard>
+            </MudItem>
+        </MudGrid>
+        <br /><br />
+        <MudDivider></MudDivider>
+    </MudItem>
+
+    <MudItem xs="8">
+        <MudText Typo="Typo.h4" GutterBottom="true" Id="contact">Contact</MudText>
+        <br />
+
+        <MudText Typo="Typo.body1" Style="text-align:center;">
+            If you would like to get in touch with me, feel free to contact me on any of my socials or send me an email.
+        </MudText>
+        <br />
+
+        <MudButton Variant="Variant.Filled" Color="Color.Tertiary" StartIcon="@Icons.Material.Filled.Email"
+                   Href="mailto:jackforde96@gmail.com" Target="_blank">
+            Email Me
+        </MudButton>
     </MudItem>
 </MudGrid>
 
@@ -91,5 +367,10 @@
     {
         timer?.Stop();
         timer?.Dispose();
+    }
+
+    private async Task ScrollTo(string id)
+    {
+        await JS.InvokeVoidAsync("scrollToId", id);
     }
 }

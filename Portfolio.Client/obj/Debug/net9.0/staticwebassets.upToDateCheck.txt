@@ -1,4 +1,7 @@
+wwwroot\images\84769876.png
+wwwroot\css\app.css
 wwwroot\appsettings.Development.json
 wwwroot\appsettings.json
-C:\git\Portfolio\Portfolio.Client\wwwroot\appsettings.Development.json
-C:\git\Portfolio\Portfolio.Client\wwwroot\appsettings.json
+C:\repos\Portfolio\Portfolio.Client\wwwroot\appsettings.Development.json
+C:\repos\Portfolio\Portfolio.Client\wwwroot\appsettings.json
+C:\repos\Portfolio\Portfolio.Client\wwwroot\css\app.css

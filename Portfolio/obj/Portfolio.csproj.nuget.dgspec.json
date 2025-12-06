@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\Portfolio\\Portfolio\\Portfolio.csproj": {}
+    "C:\\repos\\Portfolio\\Portfolio\\Portfolio.csproj": {}
   },
   "projects": {
-    "C:\\git\\Portfolio\\Portfolio.Client\\Portfolio.Client.csproj": {
+    "C:\\repos\\Portfolio\\Portfolio.Client\\Portfolio.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\Portfolio\\Portfolio.Client\\Portfolio.Client.csproj",
+        "projectUniqueName": "C:\\repos\\Portfolio\\Portfolio.Client\\Portfolio.Client.csproj",
         "projectName": "Portfolio.Client",
-        "projectPath": "C:\\git\\Portfolio\\Portfolio.Client\\Portfolio.Client.csproj",
-        "packagesPath": "C:\\Users\\jforde\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\Portfolio\\Portfolio.Client\\obj\\",
+        "projectPath": "C:\\repos\\Portfolio\\Portfolio.Client\\Portfolio.Client.csproj",
+        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Portfolio\\Portfolio.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jforde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,9 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/FlagshipGroup/893d603f-593a-4a40-90a4-9ffb15867400/_packaging/Housing-Nuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -46,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -65,7 +63,7 @@
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.11, )",
+              "version": "[10.0.0, )",
               "autoReferenced": true
             },
             "MudBlazor": {
@@ -86,10 +84,6 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.308, 9.0.308]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
               "version": "[9.0.11, 9.0.11]"
             }
@@ -99,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -108,20 +102,20 @@
         }
       }
     },
-    "C:\\git\\Portfolio\\Portfolio\\Portfolio.csproj": {
+    "C:\\repos\\Portfolio\\Portfolio\\Portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\Portfolio\\Portfolio\\Portfolio.csproj",
+        "projectUniqueName": "C:\\repos\\Portfolio\\Portfolio\\Portfolio.csproj",
         "projectName": "Portfolio",
-        "projectPath": "C:\\git\\Portfolio\\Portfolio\\Portfolio.csproj",
-        "packagesPath": "C:\\Users\\jforde\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\Portfolio\\Portfolio\\obj\\",
+        "projectPath": "C:\\repos\\Portfolio\\Portfolio\\Portfolio.csproj",
+        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Portfolio\\Portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jforde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -130,16 +124,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/FlagshipGroup/893d603f-593a-4a40-90a4-9ffb15867400/_packaging/Housing-Nuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\git\\Portfolio\\Portfolio.Client\\Portfolio.Client.csproj": {
-                "projectPath": "C:\\git\\Portfolio\\Portfolio.Client\\Portfolio.Client.csproj"
+              "C:\\repos\\Portfolio\\Portfolio.Client\\Portfolio.Client.csproj": {
+                "projectPath": "C:\\repos\\Portfolio\\Portfolio.Client\\Portfolio.Client.csproj"
               }
             }
           }
@@ -154,7 +146,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -176,12 +168,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.308, 9.0.308]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -190,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

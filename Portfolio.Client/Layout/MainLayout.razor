@@ -5,16 +5,24 @@
 <MudDialogProvider />
 <MudSnackbarProvider />
 <MudLayout>
-    <MudAppBar Elevation="1">
-        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
-        <MudText Typo="Typo.h5" Class="ml-3">Application</MudText>
+    <MudAppBar Elevation="1" Class="d-flex align-items-center">
+        <a href="https://linktr.ee/jackquentinforde" target="_blank" rel="noopener noreferrer" style="display:inline-block;">
+            <img src="images/84769876.png" alt="Logo" style="height:40px; width:40px; border-radius:50%; object-fit:cover;" />
+        </a>
+
         <MudSpacer />
-        <MudIconButton Icon="@(DarkLightModeButtonIcon)" Color="Color.Inherit" OnClick="@DarkModeToggle" />
-        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
+
+        <MudIconButton Icon="@Icons.Custom.Brands.X" Color="Color.Inherit"
+                       Href="https://x.com/LowPolyJackDev" Target="_blank" Size="Size.Medium" />
+        <MudIconButton Icon="@Icons.Custom.Brands.LinkedIn" Color="Color.Inherit"
+                       Href="https://www.linkedin.com/in/jack-forde-125787158/" Target="_blank" Size="Size.Medium" />
+        <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit"
+                       Href="https://github.com/JackQuentinForde" Target="_blank" Size="Size.Medium" />
+        <MudIconButton Icon="@Icons.Material.Filled.ViewInAr" Color="Color.Inherit"
+                       Href="https://sketchfab.com/JackQuentinForde" Target="_blank" Size="Size.Medium" />
+        <MudIconButton Icon="@Icons.Material.Filled.SportsEsports" Color="Color.Inherit"
+                       Href="https://lowpolyjack.itch.io/" Target="_blank" Size="Size.Medium" />
     </MudAppBar>
-    <MudDrawer id="nav-drawer" @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
-        <NavMenu />
-    </MudDrawer>
     <MudMainContent Class="pt-16 pa-4">
         @Body
     </MudMainContent>
@@ -38,7 +46,6 @@
 
         _theme = new()
         {
-            Typography = _typography,
             PaletteLight = _lightPalette,
             PaletteDark = _darkPalette,
             LayoutProperties = new LayoutProperties()
@@ -55,48 +62,11 @@
         _isDarkMode = !_isDarkMode;
     }
 
-    private readonly Typography _typography = new()
-    {
-        Default = new DefaultTypography
-        {
-            FontFamily = new string[] { "'Roboto'" },
-            FontWeight = "700",
-            LineHeight = "1.2"
-        },
-
-        H2 = new H2Typography()
-        {
-            FontFamily = new string[] { "'Roboto'" },
-            FontWeight = "700",
-            LineHeight = "1.2"
-        },
-
-        H3 = new H3Typography()
-        {
-            FontFamily = new string[] { "'Roboto'" },
-            FontWeight = "700",
-            LineHeight = "1.2"
-        },
-
-        H4 = new H4Typography()
-        {
-            FontFamily = new string[] { "'Roboto'" },
-            FontWeight = "700",
-            LineHeight = "1.2"
-        },
-
-        H5 = new H5Typography()
-        {
-            FontFamily = new string[] { "'Roboto'" },
-            FontWeight = "700",
-            LineHeight = "1.2"
-        }
-    };
-
     private readonly PaletteLight _lightPalette = new()
     {
         Primary = "#ff185d",
-        Secondary = "#3559db",
+        Secondary = "#28b67d",
+        Tertiary = "#3559db",
         Black = "#110e2d",
         AppbarText = "#424242",
         AppbarBackground = "rgba(255,255,255,0.8)",
