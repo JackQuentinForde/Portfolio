@@ -1,7 +1,7 @@
-wwwroot\images\84769876.png
 wwwroot\css\app.css
+wwwroot\images\84769876.png
 wwwroot\appsettings.Development.json
 wwwroot\appsettings.json
+C:\repos\Portfolio\Portfolio.Client\wwwroot\css\app.css
 C:\repos\Portfolio\Portfolio.Client\wwwroot\appsettings.Development.json
 C:\repos\Portfolio\Portfolio.Client\wwwroot\appsettings.json
-C:\repos\Portfolio\Portfolio.Client\wwwroot\css\app.css

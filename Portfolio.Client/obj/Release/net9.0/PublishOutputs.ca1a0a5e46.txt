@@ -1,0 +1,2 @@
+C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\publish\segmentation-rules.json
+C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\publish\web.config
