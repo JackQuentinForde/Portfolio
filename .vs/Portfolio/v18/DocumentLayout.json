@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\repos\\Portfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E46CFEE-208E-40C0-935A-4625674D710B}|Portfolio.Client\\Portfolio.Client.csproj|c:\\repos\\portfolio\\portfolio.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E46CFEE-208E-40C0-935A-4625674D710B}|Portfolio.Client\\Portfolio.Client.csproj|solutionrelative:portfolio.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08661CA5-7E29-4861-88B3-41AB0B76241E}|Portfolio\\Portfolio.csproj|c:\\repos\\portfolio\\portfolio\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{08661CA5-7E29-4861-88B3-41AB0B76241E}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +62,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\repos\\Portfolio\\Portfolio.Client\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Portfolio.Client\\wwwroot\\index.html",
+              "ToolTip": "C:\\repos\\Portfolio\\Portfolio.Client\\wwwroot\\index.html",
+              "RelativeToolTip": "Portfolio.Client\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-06T23:23:57.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\repos\\Portfolio\\Portfolio.Client\\Routes.razor",
               "RelativeDocumentMoniker": "Portfolio.Client\\Routes.razor",
@@ -66,12 +83,11 @@
               "RelativeToolTip": "Portfolio.Client\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-06T23:03:11.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T23:03:11.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "app.css",
               "DocumentMoniker": "C:\\repos\\Portfolio\\Portfolio.Client\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "Portfolio.Client\\wwwroot\\css\\app.css",
@@ -79,12 +95,11 @@
               "RelativeToolTip": "Portfolio.Client\\wwwroot\\css\\app.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-06T19:42:28.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T19:42:28.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\repos\\Portfolio\\Portfolio.Client\\Pages\\Home\\Home.razor",
               "RelativeDocumentMoniker": "Portfolio.Client\\Pages\\Home\\Home.razor",
@@ -92,25 +107,24 @@
               "RelativeToolTip": "Portfolio.Client\\Pages\\Home\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-06T19:33:49.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T19:33:49.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\repos\\Portfolio\\Portfolio\\Components\\App.razor",
               "RelativeDocumentMoniker": "Portfolio\\Components\\App.razor",
               "ToolTip": "C:\\repos\\Portfolio\\Portfolio\\Components\\App.razor",
               "RelativeToolTip": "Portfolio\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-05T19:49:20.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\repos\\Portfolio\\Portfolio.Client\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Portfolio.Client\\Layout\\MainLayout.razor",
@@ -118,8 +132,7 @@
               "RelativeToolTip": "Portfolio.Client\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-05T16:51:26.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T16:51:26.332Z"
             }
           ]
         }

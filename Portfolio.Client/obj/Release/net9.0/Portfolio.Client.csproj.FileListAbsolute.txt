@@ -203,8 +203,6 @@ C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\icudt_
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\segmentation-rules.json
-C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\Portfolio.Client.uoifvhkdbb.wasm
-C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\Portfolio.Client.obkql7dqe9.pdb
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.is84zt9n9u.wasm.gz
@@ -411,8 +409,6 @@ C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\icudt_
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\segmentation-rules.json.gz
-C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\Portfolio.Client.uoifvhkdbb.wasm.gz
-C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\Portfolio.Client.obkql7dqe9.pdb.gz
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json.gz
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\Portfolio.Client.staticwebassets.runtime.json
 C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\Portfolio.Client.staticwebassets.endpoints.json
@@ -1039,9 +1035,6 @@ C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\compressed\dlgi5ny7ag-{0}
 C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\compressed\4ffo486c4r-{0}-tptq2av103-tptq2av103.gz
 C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\compressed\vadbpdlc5z-{0}-lfu7j35m59-lfu7j35m59.gz
 C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\compressed\2vh7mrohwe-{0}-ec9yy67949-ec9yy67949.gz
-C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\compressed\1adwplma86-{0}-uoifvhkdbb-uoifvhkdbb.gz
-C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\compressed\gg291d3xbs-{0}-obkql7dqe9-obkql7dqe9.gz
-C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\compressed\m42omst2r2-{0}-mzyok2xoru-mzyok2xoru.gz
 C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\staticwebassets.build.json
 C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\staticwebassets.build.json.cache
 C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\staticwebassets.development.json
@@ -1052,3 +1045,11 @@ C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\Portfolio.Client.dll
 C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\refint\Portfolio.Client.dll
 C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\Portfolio.Client.pdb
 C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\ref\Portfolio.Client.dll
+C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\Portfolio.Client.0faiaiirgk.wasm
+C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\Portfolio.Client.x5rm4zsx9t.pdb
+C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\Portfolio.Client.0faiaiirgk.wasm.gz
+C:\repos\Portfolio\Portfolio.Client\bin\Release\net9.0\wwwroot\_framework\Portfolio.Client.x5rm4zsx9t.pdb.gz
+C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\compressed\nlqluf80fs-{0}-ud1pr9pdli-ud1pr9pdli.gz
+C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\compressed\1adwplma86-{0}-0faiaiirgk-0faiaiirgk.gz
+C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\compressed\gg291d3xbs-{0}-x5rm4zsx9t-x5rm4zsx9t.gz
+C:\repos\Portfolio\Portfolio.Client\obj\Release\net9.0\compressed\m42omst2r2-{0}-q5uaw0dzew-q5uaw0dzew.gz
