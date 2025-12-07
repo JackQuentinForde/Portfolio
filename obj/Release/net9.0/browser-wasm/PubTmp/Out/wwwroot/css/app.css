@@ -13,13 +13,34 @@ html, body {
     color: #b2b0bf;
 }
 
-@media (max-width: 600px) {
-    h2 {
+@media (max-width: 768px) {
+    h1, .mud-typography-h1 {
+        font-size: 2rem;
+    }
+
+    h2, .mud-typography-h2 {
         font-size: 1.5rem;
     }
 
-    h4 {
-        font-size: 1.2rem;
+    h3, .mud-typography-h3 {
+        font-size: 1.25rem;
+    }
+
+    h4, .mud-typography-h4 {
+        font-size: 1.1rem;
+    }
+
+    h5, .mud-typography-h5 {
+        font-size: 1rem;
+    }
+
+    h6, .mud-typography-h6 {
+        font-size: 0.9rem;
+    }
+
+    body, .mud-typography-body1, .mud-typography-body2 {
+        font-size: 0.95rem;
+        line-height: 1.4;
     }
 }
 

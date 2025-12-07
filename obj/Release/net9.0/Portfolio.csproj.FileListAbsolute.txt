@@ -1306,8 +1306,6 @@ C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.da
 C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
 C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\segmentation-rules.json
-C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.qflqqtdar1.wasm
-C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.h0d953got8.pdb
 C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json
 C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.is84zt9n9u.wasm.gz
@@ -1514,8 +1512,6 @@ C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.da
 C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
 C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\segmentation-rules.json.gz
-C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.qflqqtdar1.wasm.gz
-C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.h0d953got8.pdb.gz
 C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json.gz
 C:\repos\Portfolio\bin\Release\net9.0\Portfolio.staticwebassets.runtime.json
 C:\repos\Portfolio\bin\Release\net9.0\Portfolio.staticwebassets.endpoints.json
@@ -1938,7 +1934,6 @@ C:\repos\Portfolio\obj\Release\net9.0\blazor.build.boot-extension.json
 C:\repos\Portfolio\obj\Release\net9.0\blazor.boot.json
 C:\repos\Portfolio\obj\Release\net9.0\compressed\tzxjg6is5z-{0}-7c7lhmh1j6-7c7lhmh1j6.gz
 C:\repos\Portfolio\obj\Release\net9.0\compressed\0wz98yz2xy-{0}-f96y5mhlyw-f96y5mhlyw.gz
-C:\repos\Portfolio\obj\Release\net9.0\compressed\1gf0soj1i0-{0}-vvr9bdp593-vvr9bdp593.gz
 C:\repos\Portfolio\obj\Release\net9.0\compressed\4h5lvuec0z-{0}-vupae0gt74-vupae0gt74.gz
 C:\repos\Portfolio\obj\Release\net9.0\compressed\fkmehnfzni-{0}-t1cqhe9u97-t1cqhe9u97.gz
 C:\repos\Portfolio\obj\Release\net9.0\compressed\6si91vzy89-{0}-c2jlpeoesf-c2jlpeoesf.gz
@@ -2191,9 +2186,6 @@ C:\repos\Portfolio\obj\Release\net9.0\compressed\yc4xzztoz7-{0}-tjcz0u77k5-tjcz0
 C:\repos\Portfolio\obj\Release\net9.0\compressed\3du125dk5m-{0}-tptq2av103-tptq2av103.gz
 C:\repos\Portfolio\obj\Release\net9.0\compressed\x87jtt9nby-{0}-lfu7j35m59-lfu7j35m59.gz
 C:\repos\Portfolio\obj\Release\net9.0\compressed\tj672b3q11-{0}-ec9yy67949-ec9yy67949.gz
-C:\repos\Portfolio\obj\Release\net9.0\compressed\phqntkgxay-{0}-qflqqtdar1-qflqqtdar1.gz
-C:\repos\Portfolio\obj\Release\net9.0\compressed\dd4nc87vck-{0}-h0d953got8-h0d953got8.gz
-C:\repos\Portfolio\obj\Release\net9.0\compressed\n4srf7eo0m-{0}-iairz85eba-iairz85eba.gz
 C:\repos\Portfolio\obj\Release\net9.0\staticwebassets.build.json
 C:\repos\Portfolio\obj\Release\net9.0\staticwebassets.build.json.cache
 C:\repos\Portfolio\obj\Release\net9.0\staticwebassets.development.json
@@ -2205,3 +2197,11 @@ C:\repos\Portfolio\obj\Release\net9.0\Portfolio.dll
 C:\repos\Portfolio\obj\Release\net9.0\refint\Portfolio.dll
 C:\repos\Portfolio\obj\Release\net9.0\Portfolio.pdb
 C:\repos\Portfolio\obj\Release\net9.0\ref\Portfolio.dll
+C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.dk72ytv4ut.wasm
+C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.hmsphrw6oo.pdb
+C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.dk72ytv4ut.wasm.gz
+C:\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.hmsphrw6oo.pdb.gz
+C:\repos\Portfolio\obj\Release\net9.0\compressed\1gf0soj1i0-{0}-bjgx2kwcwp-bjgx2kwcwp.gz
+C:\repos\Portfolio\obj\Release\net9.0\compressed\phqntkgxay-{0}-dk72ytv4ut-dk72ytv4ut.gz
+C:\repos\Portfolio\obj\Release\net9.0\compressed\dd4nc87vck-{0}-hmsphrw6oo-hmsphrw6oo.gz
+C:\repos\Portfolio\obj\Release\net9.0\compressed\n4srf7eo0m-{0}-zw3st737hi-zw3st737hi.gz
