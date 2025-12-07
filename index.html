@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <base href="/Portfolio/" />
+    <base href="/" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="_content/MudBlazor/MudBlazor.min.css" />
     <link rel="stylesheet" href="css/app.css" />
@@ -13,12 +13,9 @@
 </head>
 
 <body>
-    <div id="app">
-        <svg class="loading-progress">
-            <circle r="40%" cx="50%" cy="50%" />
-            <circle r="40%" cx="50%" cy="50%" />
-        </svg>
-        <div class="loading-progress-text"></div>
+    <div id="app"></div>
+    <div id="app-loading">
+        <div class="loading-spinner"></div>
     </div>
 
     <div id="blazor-error-ui">
@@ -28,6 +25,17 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+
+    <script>
+        window.hideLoader = () => {
+            const loader = document.getElementById('app-loading');
+            if (loader) {
+                loader.style.opacity = "0";
+                setTimeout(() => loader.style.display = "none", 500);
+            }
+        }
+    </script>
 </body>
 
 </html>
+
