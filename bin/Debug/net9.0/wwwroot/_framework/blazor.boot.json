@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Portfolio",
   "resources": {
-    "hash": "sha256-HE1/Nm/mvaYvj7qryfvxNwrxOCDPo6hCNAWjJthJryE=",
+    "hash": "sha256-ODntv5bbd2Ttxa0pbGIeO4Dyi2aZkSRBZBQvxw9JSQI=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.is84zt9n9u.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.3zig3jhz80.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -204,8 +204,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Portfolio.hn736i51zt.wasm": "Portfolio.wasm",
-      "Portfolio.zd36mm70tq.pdb": "Portfolio.pdb"
+      "Portfolio.dtwy1khhnh.wasm": "Portfolio.wasm",
+      "Portfolio.mdoxzvkccn.pdb": "Portfolio.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.noby4tlk4d.js": "sha256-p9eEzXhQIsI0a5bBJhfzW15iRafgplTxT8XrO5FiH9o="
@@ -418,10 +418,10 @@
       "WindowsBase.i7qip04bb5.wasm": "sha256-Lg5W8BM50Cpl1dgTrG9RQOrBRKOJq6H1t5sH3yf4KDU=",
       "mscorlib.ijjuvl21w4.wasm": "sha256-ku4DyQX7IfTdwPwDlrz9odvCs4mrgsJl0fNaqY56KOI=",
       "netstandard.jgp13znru0.wasm": "sha256-I7arRnyxWh5PItslQKjzLIG7EpohJACm7p/7K8eD0YA=",
-      "Portfolio.hn736i51zt.wasm": "sha256-fSe8saA46YNIeYYY+PxG6A/SUXnbk+Q2ZofKc9+C7Ms="
+      "Portfolio.dtwy1khhnh.wasm": "sha256-oZvEIaRlYjY14ZY5AZItHi0bMVQKp2knApmI3wiydLg="
     },
     "pdb": {
-      "Portfolio.zd36mm70tq.pdb": "sha256-WUuv5sFtX1HOgPcOIf7/6MV5/aYTD3Eb8kar+wunu+c="
+      "Portfolio.mdoxzvkccn.pdb": "sha256-VucM2EIL1n2VLcUQ/SEbJ3SuwlsIShUXnk5w5U04OMo="
     }
   },
   "cacheBootResources": true,

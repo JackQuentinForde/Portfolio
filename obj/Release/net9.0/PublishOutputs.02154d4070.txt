@@ -1,0 +1,2 @@
+C:\repos\Portfolio\obj\Release\net9.0\browser-wasm\PubTmp\Out\segmentation-rules.json
+C:\repos\Portfolio\obj\Release\net9.0\browser-wasm\PubTmp\Out\web.config
