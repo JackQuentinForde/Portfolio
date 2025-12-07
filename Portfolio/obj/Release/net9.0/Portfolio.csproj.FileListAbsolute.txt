@@ -62,7 +62,6 @@ C:\repos\Portfolio\Portfolio\obj\Release\net9.0\rjsmcshtml.dswa.cache.json
 C:\repos\Portfolio\Portfolio\obj\Release\net9.0\scopedcss\bundle\Portfolio.styles.css
 C:\repos\Portfolio\Portfolio\obj\Release\net9.0\compressed\tzxjg6is5z-{0}-7c7lhmh1j6-7c7lhmh1j6.gz
 C:\repos\Portfolio\Portfolio\obj\Release\net9.0\compressed\0wz98yz2xy-{0}-f96y5mhlyw-f96y5mhlyw.gz
-C:\repos\Portfolio\Portfolio\obj\Release\net9.0\compressed\7u0i9x6hv8-{0}-2jeq8efc6q-2jeq8efc6q.gz
 C:\repos\Portfolio\Portfolio\obj\Release\net9.0\staticwebassets.build.json
 C:\repos\Portfolio\Portfolio\obj\Release\net9.0\staticwebassets.build.json.cache
 C:\repos\Portfolio\Portfolio\obj\Release\net9.0\staticwebassets.development.json
@@ -74,3 +73,4 @@ C:\repos\Portfolio\Portfolio\obj\Release\net9.0\refint\Portfolio.dll
 C:\repos\Portfolio\Portfolio\obj\Release\net9.0\Portfolio.pdb
 C:\repos\Portfolio\Portfolio\obj\Release\net9.0\Portfolio.genruntimeconfig.cache
 C:\repos\Portfolio\Portfolio\obj\Release\net9.0\ref\Portfolio.dll
+C:\repos\Portfolio\Portfolio\obj\Release\net9.0\compressed\7u0i9x6hv8-{0}-ouwph51hi5-ouwph51hi5.gz

@@ -280,3 +280,5 @@ C:\repos\Portfolio\Portfolio.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\repos\Portfolio\Portfolio.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\repos\Portfolio\Portfolio.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\repos\Portfolio\Portfolio.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\repos\Portfolio\Portfolio.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\repos\Portfolio\Portfolio.Client\obj\Debug\net9.0\staticwebassets.build.json
