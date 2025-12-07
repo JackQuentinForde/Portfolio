@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Portfolio",
   "resources": {
-    "hash": "sha256-9q6WlNI1rPmCefIHm9HjQWtsNT1DwpPW6sNWNv+9OPc=",
+    "hash": "sha256-S0Ews1HzIq/bxcMM2GH4ukwOtNG/4TcXlhBSgUh5qog=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.4hxhz0cpsn.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.vriyu1qv9u.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -19,7 +19,7 @@
       "Microsoft.Extensions.Primitives.cmbztxgzjs.wasm": "Microsoft.Extensions.Primitives.wasm",
       "Microsoft.JSInterop.fz4j6s4z6y.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.dnug9e66zg.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
-      "MudBlazor.eu4luzvnsl.wasm": "MudBlazor.wasm",
+      "MudBlazor.m2wau423d5.wasm": "MudBlazor.wasm",
       "System.Collections.Concurrent.0zsdm9dhhw.wasm": "System.Collections.Concurrent.wasm",
       "System.Collections.Immutable.p03kqo4xh4.wasm": "System.Collections.Immutable.wasm",
       "System.Collections.6ocy4eziuh.wasm": "System.Collections.wasm",
@@ -35,13 +35,13 @@
       "System.ObjectModel.wr2jpizcb1.wasm": "System.ObjectModel.wasm",
       "System.Private.Uri.khna9ug2dc.wasm": "System.Private.Uri.wasm",
       "System.Runtime.InteropServices.JavaScript.8z290vppku.wasm": "System.Runtime.InteropServices.JavaScript.wasm",
-      "System.Runtime.yrhri2v3sy.wasm": "System.Runtime.wasm",
+      "System.Runtime.ghc0amqqsc.wasm": "System.Runtime.wasm",
       "System.Text.Encodings.Web.8qvkegu1ci.wasm": "System.Text.Encodings.Web.wasm",
       "System.Text.Json.8c0rrcrvvs.wasm": "System.Text.Json.wasm",
       "System.Text.RegularExpressions.q39hyozb5w.wasm": "System.Text.RegularExpressions.wasm",
       "System.t4d4s3f398.wasm": "System.wasm",
       "System.Private.CoreLib.lqw50ciqc2.wasm": "System.Private.CoreLib.wasm",
-      "Portfolio.tcc3bniyfz.wasm": "Portfolio.wasm",
+      "Portfolio.ged9qrbley.wasm": "Portfolio.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.noby4tlk4d.js": "dotnet.native.js",
       "dotnet.native.qe75a9vfqn.wasm": "dotnet.native.wasm",
@@ -85,7 +85,7 @@
       "Microsoft.Extensions.Primitives.cmbztxgzjs.wasm": "sha256-lEYGuM+3AkkhJh+bAn9JGKJRkqgJa+FQtmm3r9HAkrw=",
       "Microsoft.JSInterop.fz4j6s4z6y.wasm": "sha256-+1XeGMQzHJ0tTFojaMJoSuv8I8sKpD7U3ANIvRtApzk=",
       "Microsoft.JSInterop.WebAssembly.dnug9e66zg.wasm": "sha256-1391UuW9RnaY9v+RXWFFkaN+3zIkFWK6F/i2rkesTxo=",
-      "MudBlazor.eu4luzvnsl.wasm": "sha256-xgWPMKGVNqtdO5kkSdHUX4mk8FD+dCoHRp84L933jgY=",
+      "MudBlazor.m2wau423d5.wasm": "sha256-IvECXx7ogIf5iqKrcBSQbuY6+NIf5aDhBJwFJvwp2sg=",
       "System.Collections.Concurrent.0zsdm9dhhw.wasm": "sha256-7H1kETSDXLRdIUi3Kt4DhAJXvLk3PC33tp3rvlYkt7Q=",
       "System.Collections.Immutable.p03kqo4xh4.wasm": "sha256-t3lUFUIDLSP/pfn6znjvfACL054hIAi7jDwaiUmlg+c=",
       "System.Collections.6ocy4eziuh.wasm": "sha256-pqAFaJSzjY80XXlquBz98wsyaHmRcXbZzLY3H84Evo8=",
@@ -100,12 +100,12 @@
       "System.Net.Primitives.d7pahnbjlt.wasm": "sha256-54Sidp4aqYDTQI7b6YP4U9grUXaiD22W/I5OwHoJgqU=",
       "System.ObjectModel.wr2jpizcb1.wasm": "sha256-zAV3m17jZEpKcLvLUSQOd8vDBpzIVkgIXme9txCbnXc=",
       "System.Private.Uri.khna9ug2dc.wasm": "sha256-mAk4fBU47/Hlvh1bUZD6W7OM0c+7e9gCzNsuYImfK64=",
-      "System.Runtime.yrhri2v3sy.wasm": "sha256-vtw3moiqoFktpbeDCFdcp+TdJxgo6jJQXFJoIZAiiVk=",
+      "System.Runtime.ghc0amqqsc.wasm": "sha256-zD4PJ013k+PBNqkNU19v3e2N5hRInxshLJLALGMb7eU=",
       "System.Text.Encodings.Web.8qvkegu1ci.wasm": "sha256-oAvGjE7zOfELanuhXBazvipywX/fnbrfBmWPDH/R3bw=",
       "System.Text.Json.8c0rrcrvvs.wasm": "sha256-iKppEG2dVKrD9yGLCLegNSagn8UNJ4/djtxWrJBvB5Y=",
       "System.Text.RegularExpressions.q39hyozb5w.wasm": "sha256-VvoD1cALCbUFYAU+eYEOts2NrPqdtjDpcNYhRV2nUj0=",
       "System.t4d4s3f398.wasm": "sha256-fVP2BxRRKpBA0PmBbKxmO45bXDrAXVn1GthlDclLbeU=",
-      "Portfolio.tcc3bniyfz.wasm": "sha256-Tajf9g3N78pObBmrf2C0XLATlxRQCiriOndUkj8m0MA="
+      "Portfolio.ged9qrbley.wasm": "sha256-6L14sqohrzj4TwFMFjSOf8RElc90ZCkw6oqb1SV3lqA="
     }
   },
   "cacheBootResources": true,

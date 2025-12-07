@@ -203,8 +203,6 @@ C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\segmentation-rules.json
-C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.tcc3bniyfz.wasm
-C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.jtfgmb5bnh.pdb
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.is84zt9n9u.wasm.gz
@@ -411,8 +409,6 @@ C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\segmentation-rules.json.gz
-C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.tcc3bniyfz.wasm.gz
-C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.jtfgmb5bnh.pdb.gz
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json.gz
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\Portfolio.staticwebassets.runtime.json
 C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\Portfolio.staticwebassets.endpoints.json
@@ -834,8 +830,6 @@ C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\blazor.build.boot-extens
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\blazor.boot.json
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\tzxjg6is5z-{0}-7c7lhmh1j6-7c7lhmh1j6.gz
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\0wz98yz2xy-{0}-f96y5mhlyw-f96y5mhlyw.gz
-C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\1gf0soj1i0-{0}-6ldzqol31l-6ldzqol31l.gz
-C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\4h5lvuec0z-{0}-1tj0kj4oj2-1tj0kj4oj2.gz
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\fkmehnfzni-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\6si91vzy89-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\rv86f6bpew-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -1087,9 +1081,6 @@ C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\yc4xzztoz7-{0
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\3du125dk5m-{0}-tptq2av103-tptq2av103.gz
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\x87jtt9nby-{0}-lfu7j35m59-lfu7j35m59.gz
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\tj672b3q11-{0}-ec9yy67949-ec9yy67949.gz
-C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\phqntkgxay-{0}-tcc3bniyfz-tcc3bniyfz.gz
-C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\dd4nc87vck-{0}-jtfgmb5bnh-jtfgmb5bnh.gz
-C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\n4srf7eo0m-{0}-wores0ycj3-wores0ycj3.gz
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\staticwebassets.build.json
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\staticwebassets.build.json.cache
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\staticwebassets.development.json
@@ -1101,3 +1092,12 @@ C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\Portfolio.dll
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\refint\Portfolio.dll
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\Portfolio.pdb
 C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\ref\Portfolio.dll
+C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.ged9qrbley.wasm
+C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.w1ur8reopg.pdb
+C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.ged9qrbley.wasm.gz
+C:\Users\Jack\source\repos\Portfolio\bin\Release\net9.0\wwwroot\_framework\Portfolio.w1ur8reopg.pdb.gz
+C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\1gf0soj1i0-{0}-62c8jmvdj6-62c8jmvdj6.gz
+C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\4h5lvuec0z-{0}-vupae0gt74-vupae0gt74.gz
+C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\phqntkgxay-{0}-ged9qrbley-ged9qrbley.gz
+C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\dd4nc87vck-{0}-w1ur8reopg-w1ur8reopg.gz
+C:\Users\Jack\source\repos\Portfolio\obj\Release\net9.0\compressed\n4srf7eo0m-{0}-c1j3kp6wlj-c1j3kp6wlj.gz

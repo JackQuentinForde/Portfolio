@@ -1,8 +1,8 @@
-wwwroot\css\app.css
+wwwroot\index.html
 wwwroot\favicon.png
 wwwroot\icon-192.png
 wwwroot\images\84769876.png
-wwwroot\index.html
+wwwroot\css\app.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -47,8 +47,6 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-C:\Users\Jack\source\repos\Portfolio\wwwroot\css\app.css
-C:\Users\Jack\source\repos\Portfolio\wwwroot\index.html
 C:\Users\Jack\source\repos\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\Jack\source\repos\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\Jack\source\repos\Portfolio\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -93,3 +91,5 @@ C:\Users\Jack\source\repos\Portfolio\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\Jack\source\repos\Portfolio\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 C:\Users\Jack\source\repos\Portfolio\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 C:\Users\Jack\source\repos\Portfolio\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\Jack\source\repos\Portfolio\wwwroot\index.html
+C:\Users\Jack\source\repos\Portfolio\wwwroot\css\app.css
