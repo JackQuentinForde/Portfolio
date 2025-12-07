@@ -1942,11 +1942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jack\\source\\repos\\Portfolio\\Portfolio.csproj",
+      "projectUniqueName": "C:\\repos\\Portfolio\\Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "C:\\Users\\Jack\\source\\repos\\Portfolio\\Portfolio.csproj",
+      "projectPath": "C:\\repos\\Portfolio\\Portfolio.csproj",
       "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jack\\source\\repos\\Portfolio\\obj\\",
+      "outputPath": "C:\\repos\\Portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jack\\source\\repos\\Portfolio\\",
+  "WorkspaceRootPath": "C:\\repos\\Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\users\\jack\\source\\repos\\portfolio\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\repos\\portfolio\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\users\\jack\\source\\repos\\portfolio\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\users\\jack\\source\\repos\\portfolio\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\users\\jack\\source\\repos\\portfolio\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\repos\\portfolio\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\users\\jack\\source\\repos\\portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\repos\\portfolio\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\users\\jack\\source\\repos\\portfolio\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\repos\\portfolio\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\repos\\portfolio\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|c:\\repos\\portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22C5090-2E42-7CF5-DFCE-2717F9F4F06F}|Portfolio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,50 +62,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\Jack\\source\\repos\\Portfolio\\wwwroot\\css\\app.css",
+              "DocumentMoniker": "C:\\repos\\Portfolio\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\Jack\\source\\repos\\Portfolio\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\repos\\Portfolio\\wwwroot\\css\\app.css",
               "RelativeToolTip": "wwwroot\\css\\app.css",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwCgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-12-07T10:47:03.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\Jack\\source\\repos\\Portfolio\\App.razor",
+              "DocumentMoniker": "C:\\repos\\Portfolio\\App.razor",
               "RelativeDocumentMoniker": "App.razor",
-              "ToolTip": "C:\\Users\\Jack\\source\\repos\\Portfolio\\App.razor",
+              "ToolTip": "C:\\repos\\Portfolio\\App.razor",
               "RelativeToolTip": "App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-07T10:49:29.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T10:49:29.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\Jack\\source\\repos\\Portfolio\\wwwroot\\index.html",
+              "DocumentMoniker": "C:\\repos\\Portfolio\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\Jack\\source\\repos\\Portfolio\\wwwroot\\index.html",
+              "ToolTip": "C:\\repos\\Portfolio\\wwwroot\\index.html",
               "RelativeToolTip": "wwwroot\\index.html",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-12-07T10:39:19.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T10:39:19.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jack\\source\\repos\\Portfolio\\Program.cs",
+              "DocumentMoniker": "C:\\repos\\Portfolio\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Jack\\source\\repos\\Portfolio\\Program.cs",
+              "ToolTip": "C:\\repos\\Portfolio\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -113,25 +111,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\Jack\\source\\repos\\Portfolio\\Pages\\Home.razor",
+              "DocumentMoniker": "C:\\repos\\Portfolio\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\Jack\\source\\repos\\Portfolio\\Pages\\Home.razor",
+              "ToolTip": "C:\\repos\\Portfolio\\Pages\\Home.razor",
               "RelativeToolTip": "Pages\\Home.razor",
-              "ViewState": "AgIAAF8BAAAAAAAAAAAAAHUBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-07T10:16:10.529Z"
+              "WhenOpened": "2025-12-07T10:16:10.529Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Jack\\source\\repos\\Portfolio\\Layout\\MainLayout.razor",
+              "DocumentMoniker": "C:\\repos\\Portfolio\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Jack\\source\\repos\\Portfolio\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\repos\\Portfolio\\Layout\\MainLayout.razor",
               "RelativeToolTip": "Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-07T10:13:25.6Z",
               "EditorCaption": ""
